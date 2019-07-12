@@ -1,11 +1,11 @@
 def nyc_pigeon_organizer(data)
   pigeon_update = {}
-  data.map {|key, value|
-  value.map {|traits, name|
-  name.map {|names|
-  pigeon_update[names] ||= {}
-  pigeon_update[names][key] ||=[]
-  pigeon_update[names][key] << details.to_s 
+    data.map {|key, value|
+      value.map {|traits, names|
+    name.map {|name|
+  pigeon_update[name] ||= {}
+  pigeon_update[name][key] ||=[]
+  pigeon_update[name][key] << details.to_s 
   }
   }
   } 
