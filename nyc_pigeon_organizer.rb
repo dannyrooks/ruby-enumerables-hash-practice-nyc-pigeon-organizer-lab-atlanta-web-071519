@@ -8,6 +8,6 @@ def nyc_pigeon_organizer(data)
        pigeon_update[name][key] << details.to_s
     }
   } 
-end
+}
   return pigeon_update
 end
